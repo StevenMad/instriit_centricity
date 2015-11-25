@@ -1,0 +1,24 @@
+Todo List : 
+Créer des profils fakes en Json
+exemple de type de données : 
+
+"membres" = [{
+    "nom":"Guierou" 
+    "prenom":"Sibot",
+    "sexe":"M",
+    "profession":"Etudiant",
+    "age":25,
+    "point":14,
+    "show_on_map": true,	
+    "adresse":[{
+    "numero":15,
+    "rue":"grandcoing",
+    "ville":"Ivry-sur-Seine"
+	}]
+    "coordinates": [48.813155, 2.388173]
+}
+
+
+Creation de marqueurs et utilisation de GeoJSON
+
+Algo de matching

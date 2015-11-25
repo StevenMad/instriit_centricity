@@ -1,0 +1,9 @@
+Todo List : 
+Créer des profils fakes en Json
+exemple de type de données : 
+
+( a remplir)
+
+Creation de marqueurs et utilisation de GeoJSON
+
+Algo de matching

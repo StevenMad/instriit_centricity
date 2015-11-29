@@ -1,0 +1,14 @@
+Todo List : 
+
+ouatta_k : 
+- Zoomer sur la position
+- Marquer la position par un point
+- Retirer la div
+- recuperer les coord max de la page 
+	ou sinon tu fais un cercle ayant comme rayon une certaine distance par rapport au point du centre de la map 
+
+
+/* ------------------------------------------------------*/
+Creation de marqueurs et utilisation de GeoJSON
+
+Algo de matching

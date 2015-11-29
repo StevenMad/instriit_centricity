@@ -1,0 +1,41 @@
+#map{
+	display:inline-block;
+	width:95%;
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:5px;
+	transition: 1s;
+}
+
+#map:hover{
+	box-shadow: 1 1 12 grey;
+}
+
+#content{
+	background-color: #3b5998;
+}
+
+#menu{
+	transition:1s;
+	display: inline-block;
+	background-image:url("ic_view_headline_black_24dp_2x.png");
+	background-color: #03a9f4;
+	background-position: left-top;
+	background-repeat: no-repeat;
+	width:4%;
+	height: 100%;
+}
+
+#chat{
+	background-color: teal;
+	transition:1s;
+}
+
+.sdwmenu:hover{
+}
+
+
+input{
+	display:block;
+}

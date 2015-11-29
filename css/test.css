@@ -1,0 +1,13 @@
+.btn{
+    display:block;
+    background-color:grey;
+    width:150px;
+    text-align:center;
+    padding-top:15px;
+    height:30px;
+}
+
+.btn:hover{
+    border-style:solid;
+    cursor:pointer;
+}

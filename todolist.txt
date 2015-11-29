@@ -1,24 +1,14 @@
 Todo List : 
-Créer des profils fakes en Json
-exemple de type de données : 
 
-"membres" = [{
-    "nom":"Guierou" 
-    "prenom":"Sibot",
-    "sexe":"M",
-    "profession":"Etudiant",
-    "age":25,
-    "point":14,
-    "show_on_map": true,	
-    "adresse":[{
-    "numero":15,
-    "rue":"grandcoing",
-    "ville":"Ivry-sur-Seine"
-	}]
-    "coordinates": [48.813155, 2.388173]
-}
+ouatta_k : 
+- Zoomer sur la position
+- Marquer la position par un point
+- Retirer la div
+- recuperer les coord max de la page 
+	ou sinon tu fais un cercle ayant comme rayon une certaine distance par rapport au point du centre de la map 
 
 
+/* ------------------------------------------------------*/
 Creation de marqueurs et utilisation de GeoJSON
 
 Algo de matching

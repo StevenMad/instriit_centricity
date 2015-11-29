@@ -1,0 +1,110 @@
+{"membres":[
+    {"nom": "Renard",
+     "prenom": "Herve",
+     "sexe": "M",
+     "profession": "Etudiant",
+     "age": 25,
+     "score": 14,
+     "coordinates": [
+         48.813155,
+         2.388173
+     ]
+    },
+    {
+        "nom": "Fabre",
+        "prenom": "Helène",
+        "sexe": "F",
+        "profession": "Caissière",
+        "age": 28,
+        "score": 18,
+        "coordinates": [
+            48.823027,
+            2.388325
+            ]
+    },
+    {
+        "nom": "Paulin",
+        "prenom": "Pierre",
+        "sexe": "M",
+        "profession": "Boulanger",
+        "age": 37,
+        "score": 12,
+        "coordinates": [
+            48.820314,
+            2.410126
+            ]
+    },
+    {
+        "nom": "Coude",
+        "prenom": "Claire",
+        "sexe": "F",
+        "profession": "Chargé de recrutement",
+        "age": 28,
+        "score": 20,
+        "coordinates": [
+            48.810872,
+            2.407894
+        ]
+    },
+    {
+        "nom": "Diacre",
+        "prenom": "Estelle",
+        "sexe": "F",
+        "profession": "Avocate",
+        "age": 27,
+        "score": 8,
+        "coordinates": [
+            48.815733,
+            2.36618
+        ]
+    },
+    {
+        "nom": "Pierrefite",
+        "prenom": "Jean",
+        "sexe": "M",
+        "profession": "Professeur",
+        "age": 28,
+        "score": 2,
+        "coordinates": [
+            48.815959,
+            2.397423
+        ]
+    },
+    {
+        "nom": "Simoes",
+        "prenom": "José",
+        "sexe": "M",
+        "profession": "Maçon",
+        "age": 45,
+        "score": 7,
+        "coordinates": [
+            48.807367,
+            2.395706
+        ]
+    },
+    {
+        "nom": "Cervelet",
+        "prenom": "Paul",
+        "sexe": "M",
+        "profession": "Policier",
+        "age": 35,
+        "score": 12,
+        "coordinates": [
+            48.817207,
+            2.374288
+        ]
+    },
+    {
+        "nom": "Klein",
+        "prenom": "Maelle",
+        "sexe": "F",
+        "profession": "Kiné",
+        "age": 23,
+        "score": 15,
+        "coordinates": [
+            48.810985,
+            2.395363
+        ]
+    }
+]
+}

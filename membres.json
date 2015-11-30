@@ -105,6 +105,30 @@
             48.810985,
             2.395363
         ]
+    },
+    {
+        "nom": "Medhu",
+        "prenom":"Bart",
+        "sexe": "F",
+        "profession": "infirmier",
+        "age": 23,
+        "score": 15,
+        "coordinates": [
+            48.810785,
+            2.395300
+        ]
+    },
+    {
+        "nom": "Terry",
+        "prenom": "Josie",
+        "sexe": "F",
+        "profession": "Sportif",
+        "age": 23,
+        "score": 15,
+        "coordinates": [
+            48.810960,
+            2.395360
+        ]
     }
 ]
 }

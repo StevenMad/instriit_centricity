@@ -11,19 +11,23 @@ function init(){
     var $link = '<a href="#" class="link">chat</a>';
     $.get("membres.json",function (data){
 	for(var $i = 0;$i < data.membres.length;$i++){
+	   var $link = '<a href="#" id=$i class="link" >chat</a>';
+	    var $profil = '<a href="#" id=$i class="profil" >profil</a>';
+	    var $pseudo = data.membres[$i].nom + " " + data.membres[$i].prenom;
+	    var $age = data.membres[$i].age + " ans";
+	    var $chaine = $pseudo + "<br>" + $link +" "+ $profil;
+	    var $taf = data.membres[$i].profession;
 	    var $chaine = "";	    
-		    $chaine += data.membres[$i].nom + "<br /> " + data.membres[$i].prenom + "<br />" + data.membres[$i].age + " ans <br />" + $link;
-		    L.marker(data.membres[$i].coordinates).addTo(map) .bindPopup($chaine); 
-		}
-    });
-    var chat_click=0;
+	    $chaine += $pseudo +"<br>" + $link + " " + $profil;
+	    L.marker(data.membres[$i].coordinates).addTo(map) .bindPopup($chaine);
+	        var chat_click=0;
     $('body').on('click', '.link', function() {
 	if(chat_click == 0){
 	    $(".top").css("height","80%");
 	    $("#chat").css("bottom","0");
 	    $("#chat").css("width","100%");
 	    $("#chat").css("height","19%");
-	    $("#chat").css("background-color","teal");
+	    $("#chat").css("background-color","teal").html('<div class="form-group"><input id="text" type="text" class="form-control" placeholder="saisie commentaire ici"><button type="submit" class="btn btn-primary pull-right">Envoyer</button>');;
 	    chat_click=1;
 	}else{
 	    $(".top").css("height","100%");
@@ -40,7 +44,34 @@ function init(){
 	    chat_click=0;
 	}
     });
-    
+
+    var profil_click=0;
+	$('body').on('click', '.profil', function() {
+	    if(profil_click == 0){
+		$(".top").css("height","80%");
+		$("#profil").css("bottom","0");
+		$("#profil").css("width","100%");
+		$("#profil").css("height","19%");
+		$("#profil").css("background-color","teal").html('<div class="glyphicon glyphicon-user">'+ $pseudo + '</div><br><br><div class="glyphicon glyphicon-briefcase">'+ $taf +'</div><br><br><div>'+ $age +'</div>');
+		profil_click=1;
+	    }else{
+		$(".top").css("height","100%");
+		$("#profil").css("width","0");
+		$("#profil").css("height","0");
+		profil_click=0;
+	    }
+	});
+	$("#map").click(function(){
+	    if (profil_click == 1){
+		$(".top").css("height","100%");
+		$("#profil").css("width","0");
+		$("#profil").css("height","0");
+		profil_click=0;
+	    }
+	});
+	}
+	
+    });
 }   
 var ok;
 window.onload = function(){

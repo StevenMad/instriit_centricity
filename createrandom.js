@@ -6,7 +6,7 @@ function createme(){
 	    var member = new JSONObject();
 	    for (var i = 0; i < data.results.length; i++){
 		console.log(data.results[i].user.name);
-		member = ne
+		members
 	    }
 	    
 	}
@@ -14,9 +14,9 @@ function createme(){
 }
 
 function generate_coord(){
+    var nord =  49.068035;
+    var sud = 48.623720;
+    var ouest = 1.400993;
+    var est = 2.867668;
 }
 
-var nord =  49.068035;
-var sud = 48.623720;
-var ouest = 1.400993;
-var est = 2.867668;
